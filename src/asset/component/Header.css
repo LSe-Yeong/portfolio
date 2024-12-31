@@ -1,0 +1,40 @@
+.header {
+    width: 1320px;
+    height: 80px;
+    margin: 0px auto;
+    background-color: #18A77C;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 130px;
+}
+
+.computerImg{
+    width: 20px;
+    height: 20px;
+    fill: white;
+    vertical-align: middle;
+}
+
+.logo span{
+    font-size: 18px;
+    color: white;
+    font-weight: bolder;
+
+    margin-left: 10px;
+}
+
+.navbar{
+    margin-left: 211px;
+}
+
+.navbar span{
+    font-size: 16px;
+    color: white;
+
+    margin-left : 132px;
+}
