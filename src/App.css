@@ -6,6 +6,14 @@ h5 {
   margin: 0px;
 }
 
+hr{
+  margin: 0px;
+}
+
+h3{
+  margin: 0px;
+}
+
 body {
 	all: unset; /* 모든 기본 스타일 제거 */
 }

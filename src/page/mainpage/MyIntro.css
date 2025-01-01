@@ -1,0 +1,39 @@
+.myintro{
+    width: 1320px;
+}
+
+.myintro h2{
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.myintro h3{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.myintroelement{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-Top: 70px;
+}
+
+.profileimage{
+    width: 510px;
+    height: 500px;
+    background-color: red;
+    border-radius: 20px;
+    background-image: url('../../asset/image/호랑사또.jpg');
+    background-repeat: no-repeat;
+    background-position: -330px -200px; /* x축: 20px, y축: 40px */
+    background-size: 1178px 872px; /* 이미지 너비 100px, 높이 100px */
+}
+
+.myintrocontent h5{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}

@@ -17,7 +17,7 @@
     color: white;
 }
 
-.imgbox{
+.profileimgbox{
     width: 250px;
     height: 250px;
     background-color: red;
@@ -31,6 +31,7 @@
 
 .horline{
     width: 840px;
+    margin: 0px auto;
     border: 0;
     border-top: 0.5px solid rgba(255, 255, 255, 0.7);
     margin-top: 60px;

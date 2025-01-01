@@ -11,7 +11,7 @@ function MainContent(){
                 <span style={{fontSize:"64px",fontWeight:"700"}}>Web Developer</span> <br></br>
                 <span style={{fontSize:"64px",fontWeight:"700"}}>Portfolio</span>
             </div>
-            <div className="imgbox">
+            <div className="profileimgbox">
 
             </div>
         </div>
