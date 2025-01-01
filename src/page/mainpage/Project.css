@@ -1,0 +1,92 @@
+.project{
+    width: 1320px;
+    margin-left: 20px;
+}
+
+.title{
+    margin: 80px 0px;
+}
+
+.title h1{
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.navigationbar{
+    display: flex;
+    align-items: center;
+}
+
+.navibox{
+    width: 130px;
+    height: 40px;
+    border-radius: 16px;
+    background-color: #D9D9D9;
+}
+
+.naviboxcontent{
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+.naviicon {
+    width: 20px;
+    height: 20px;
+    fill: black;
+}
+
+.naviboxcontent h5{
+    font-size: 16px;
+    color: #666666;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.navititle h5{
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 30px;
+}
+
+.projectimage{
+
+}
+
+.projectimagecontent1{
+    width: 620px;
+    height: 400px;
+    background-color: red;
+    background-image: url('../../asset/image/수학\ 문제\ 거래1.png');
+    background-repeat: no-repeat;
+    background-position: -80px -110px; /* x축: 20px, y축: 40px */
+    background-size: 770px 558px; /* 이미지 너비 100px, 높이 100px */
+}
+
+.projectimagecontent2{
+    width: 620px;
+    height: 400px;
+    background-color: red;
+    background-image: url('../../asset/image/수학문제거래\ 2.png');
+    background-repeat: no-repeat;
+    background-position: -10px -45px; /* x축: 20px, y축: 40px */
+    background-size: 641px 458px; /* 이미지 너비 100px, 높이 100px */
+    margin-top: 40px;
+}
+
+.projectcontent{
+    margin-left: 80px;
+}
+
+.projectcontent h4{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.projectcontent h5{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+}

@@ -22,7 +22,7 @@ function MyIntroContent(){
         return(
             <div className="myintrocontent">
                 <h3 style={{fontSize:"35px"}}>{props.title}</h3>
-                <hr style={{width:"289px",border:"0px",borderTop:"1px solid rgba(66,66,66,0.7)", marginTop:"8px"}}></hr>
+                <hr style={{width:"289px",border:"0px",borderTop:"1px solid rgba(66,66,66,0.3)", marginTop:"8px"}}></hr>
                 {content}
             </div>
         )
