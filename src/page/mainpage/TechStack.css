@@ -1,0 +1,39 @@
+.techstack{
+    width: 1320px;
+}
+
+
+.title{
+    margin: 80px 0px;
+}
+
+.title h1{
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.techstackcontent h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.techstacktemplate {
+    margin-top: 55px;
+}
+
+.techstackimagecontent {
+    width: 180px;
+}
+
+.techstackimagecontent h2{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.techstackimage {
+    width: 180px;
+    height: 180px;
+    background-color: red;
+}
