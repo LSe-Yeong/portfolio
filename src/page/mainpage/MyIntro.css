@@ -32,8 +32,32 @@
     background-size: 1178px 872px; /* 이미지 너비 100px, 높이 100px */
 }
 
+.myintrocontent{
+    margin-left: 40px;
+}
+
+.myintrocontent h3{
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.myintrocontent h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
 .myintrocontent h5{
     font-size: 16px;
-    font-weight: 400;
+    line-height: 18px;
+    font-weight: 500;
     margin-top: 20px;
 }
+
+
+.myintrocontent h6{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+}
+
