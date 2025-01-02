@@ -5,6 +5,7 @@ import Project from "./Project"
 import TechStack from "./TechStack"
 import Visual from "./Visual"
 import Etc from "./Etc"
+import Footer from "../../asset/component/Footer"
 
 function MainPage(){
     return(
@@ -15,6 +16,7 @@ function MainPage(){
             <Project></Project>
             <TechStack></TechStack>
             <Etc></Etc>
+            <Footer></Footer>
         </div>
     )
 }

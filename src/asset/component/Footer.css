@@ -1,0 +1,14 @@
+.footer{
+    width: 1320px;
+    height: 200px;
+    background-color: #18A77C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
