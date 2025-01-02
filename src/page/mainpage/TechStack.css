@@ -1,5 +1,6 @@
 .techstack{
     width: 1320px;
+    margin-left: 20px;
 }
 
 
@@ -28,7 +29,8 @@
 
 .techstackimagecontent h2{
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
+    margin-top: 5px;
     text-align: center;
 }
 

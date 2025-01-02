@@ -4,6 +4,7 @@ import MyIntro from "./MyIntro"
 import Project from "./Project"
 import TechStack from "./TechStack"
 import Visual from "./Visual"
+import Etc from "./Etc"
 
 function MainPage(){
     return(
@@ -13,6 +14,7 @@ function MainPage(){
             <MyIntro></MyIntro>
             <Project></Project>
             <TechStack></TechStack>
+            <Etc></Etc>
         </div>
     )
 }
