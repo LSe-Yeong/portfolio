@@ -1,14 +1,15 @@
 
 @font-face {
-  font-family: 'Pretendard-Regular';
-  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-family: 'PretendardVariable';
+  src: url('./asset/fonts/PretendardVariable.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 } 
 
 body {
+  all : unset;
   margin: 0;
-  font-family: "Pretendard-Regular";
+  font-family: "PretendardVariable";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

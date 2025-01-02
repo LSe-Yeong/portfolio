@@ -23,7 +23,7 @@ function MyIntroContent(){
         return(
             <div style={{marginTop:marginValue}}>
                 <h4>{props.title}</h4>
-                <hr style={{width:"250px",border:"0px",borderTop:"1px solid rgba(66,66,66,0.3)", marginTop:"3px"}}></hr>
+                <hr style={{width:"250px",border:"0px",borderTop:"1px solid rgba(66,66,66,0.3)", margin:"5px 0px"}}></hr>
                 {content}
             </div>
         )
@@ -42,7 +42,7 @@ function MyIntroContent(){
             <div style={{marginTop:"20px"}}>
                 <ContentTemplate title="1.기초를 중요하게 생각합니다." idx={0}></ContentTemplate>
                 <ContentTemplate title="2.프로젝트에 있어 도전적인 성격입니다." idx={1}></ContentTemplate>
-                <ContentTemplate title="3.간단한 서비스를 만들어 배포한 경험이 있습니다.." idx={2}></ContentTemplate>
+                <ContentTemplate title="3.간단한 서비스를 만들어 배포한 경험이 있습니다." idx={2}></ContentTemplate>
             </div>
         </div>
     )

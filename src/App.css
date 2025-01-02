@@ -21,7 +21,3 @@ h3{
 h6{
   margin: 0px;
 }
-
-body {
-	all: unset; /* 모든 기본 스타일 제거 */
-}
