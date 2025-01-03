@@ -1,11 +1,11 @@
 import Header from "../../asset/component/Header"
 import "./MainPage.css"
 import MyIntro from "./MyIntro"
-import Project from "./Project"
 import TechStack from "./TechStack"
 import Visual from "./Visual"
 import Etc from "./Etc"
 import Footer from "../../asset/component/Footer"
+import ProjectPreview from "./ProjectPreview"
 
 function MainPage(){
     return(
@@ -13,7 +13,7 @@ function MainPage(){
             <Header></Header>
             <Visual></Visual>
             <MyIntro></MyIntro>
-            <Project></Project>
+            <ProjectPreview></ProjectPreview>
             <TechStack></TechStack>
             <Etc></Etc>
             <Footer></Footer>

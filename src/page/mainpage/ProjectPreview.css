@@ -1,0 +1,50 @@
+.projectpreview{
+    width: 1320px;
+    margin: 160px 0px;
+}
+
+.title h1{
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.projectpreviewcontent{
+    display: flex;
+    margin: 0px 20px;
+    justify-content: space-between;
+}
+
+.previewcontenttemplate h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.previewcontenttemplate h6{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.detailbutton{
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #18A77C;
+    display: flex;
+    align-items: center;
+}
+
+.detailbutton h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    margin: 0px auto;
+}
+
+.previewimage{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    background-repeat: no-repeat;
+}

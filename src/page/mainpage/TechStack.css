@@ -1,6 +1,6 @@
 .techstack{
     width: 1320px;
-    margin-left: 20px;
+    margin: 160px 0px;
 }
 
 
@@ -12,6 +12,10 @@
     font-size: 56px;
     font-weight: 700;
     text-align: center;
+}
+
+.techstackcontent {
+    margin-left: 20px;
 }
 
 .techstackcontent h2{
