@@ -47,6 +47,7 @@ function ProjectPreviewContent(){
         }
 
         const project = props.content
+        const connectUrl = "/project/"+String(props.idx)
 
         const projectExplanation = project.content.split("\n").map((line, index) => (
             <h6 key={index}>{line}</h6>
@@ -65,7 +66,7 @@ function ProjectPreviewContent(){
                     <h2>{project.title}</h2>
                     <hr style={{width:"180px",border:"0px",borderTop:"1px solid rgba(66,66,66,0.3)", margin:"8px 0px"}}></hr>
                     {projectExplanation}
-                    <DetailButton marginValue="20px"></DetailButton>
+                    <a href={connectUrl}><DetailButton marginValue="20px"></DetailButton></a>
                 </div>
             </div>
         )
@@ -73,16 +74,16 @@ function ProjectPreviewContent(){
 
     return(
         <div className="projectpreviewcontent">
-            <PreviewContentTemplate content={project1}></PreviewContentTemplate>
-            <PreviewContentTemplate content={project2}></PreviewContentTemplate>
-            <PreviewContentTemplate content={project3}></PreviewContentTemplate>
+            <PreviewContentTemplate idx={0} content={project1}></PreviewContentTemplate>
+            <PreviewContentTemplate idx={1} content={project2}></PreviewContentTemplate>
+            <PreviewContentTemplate idx={2} content={project3}></PreviewContentTemplate>
         </div>
     )
 }
 
 function ProjectPreview(){
     return(
-        <div className="projectpreview">
+        <div className="projectpreview" id="project">
             <Title></Title>
             <ProjectPreviewContent></ProjectPreviewContent>
         </div>

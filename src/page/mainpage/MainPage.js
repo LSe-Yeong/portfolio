@@ -9,7 +9,7 @@ import ProjectPreview from "./ProjectPreview"
 
 function MainPage(){
     return(
-        <div className="containor">
+        <div className="containor" id="home">
             <Header></Header>
             <Visual></Visual>
             <MyIntro></MyIntro>

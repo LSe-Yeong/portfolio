@@ -98,7 +98,7 @@ function TechStackContent(){
 
 function TechStack(){
     return(
-        <div className="techstack">
+        <div className="techstack" id="techstack">
             <Title></Title>
             <TechStackContent></TechStackContent>
         </div>

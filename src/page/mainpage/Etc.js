@@ -52,7 +52,7 @@ function EtcContent(){
 
 function Etc(){
     return(
-        <div className="etc">
+        <div className="etc" id="etc">
             <Title></Title>
             <EtcContent></EtcContent>
         </div>

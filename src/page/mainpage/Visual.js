@@ -24,7 +24,7 @@ function Contact(){
         const content = []
         if(type=="github"){
             content.push(<GitHub className="icon"></GitHub>)
-            content.push(<span>Lse-Yeong</span>)
+            content.push(<a href="https://github.com/LSe-Yeong"><span>Lse-Yeong</span></a>)
         }
         else if(type=="mail"){
             content.push(<Mail className="icon"></Mail>)
@@ -32,7 +32,7 @@ function Contact(){
         }
         else if(type=="insta"){
             content.push(<Insta className="icon"></Insta>)
-            content.push(<span>sezero_lee</span>)
+            content.push(<a href="https://www.instagram.com/sezero_lee/"><span>sezero_lee</span></a>)
         }
         else{
             content.push(<h2>Error</h2>)

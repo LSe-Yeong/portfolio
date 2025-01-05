@@ -50,7 +50,7 @@ function MyIntroContent(){
 
 function MyIntro(){
     return(
-        <div className="myintro">
+        <div className="myintro" id="myintro">
             <div>
                 <h2 style={{marginTop:"70px"}}>My Intro</h2>
             </div>
