@@ -58,21 +58,15 @@
 .projectimagecontent1{
     width: 620px;
     height: 400px;
-    background-color: red;
-    background-image: url('../../asset/image/수학문제거래1.png');
+    background-color: white;
     background-repeat: no-repeat;
-    background-position: -80px -110px; /* x축: 20px, y축: 40px */
-    background-size: 770px 558px; /* 이미지 너비 100px, 높이 100px */
 }
 
 .projectimagecontent2{
     width: 620px;
     height: 400px;
-    background-color: red;
-    background-image: url('../../asset/image/수학문제거래\ 2.png');
+    background-color: white;
     background-repeat: no-repeat;
-    background-position: -10px -45px; /* x축: 20px, y축: 40px */
-    background-size: 641px 458px; /* 이미지 너비 100px, 높이 100px */
     margin-top: 40px;
 }
 
@@ -89,4 +83,21 @@
     font-size: 18px;
     line-height: 20px;
     font-weight: 500;
+}
+
+.homebutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #18A77C;
+    margin : 40px auto;
+}
+
+.homebutton h2{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
 }

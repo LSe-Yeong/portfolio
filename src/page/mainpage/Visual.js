@@ -7,7 +7,7 @@ function MainContent(){
     return(
         <div className="maincontent">
             <div>
-                <span style={{fontSize:"32px",fontWeight:"400"}}>2024</span> <br></br>
+                <span style={{fontSize:"32px",fontWeight:"400"}}>2025</span> <br></br>
                 <span style={{fontSize:"64px",fontWeight:"700"}}>Web Developer</span> <br></br>
                 <span style={{fontSize:"64px",fontWeight:"700"}}>Portfolio</span>
             </div>

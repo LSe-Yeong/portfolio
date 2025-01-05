@@ -2,6 +2,13 @@ import "./Project.css"
 import { ReactComponent as LeftArrow } from '../../asset/image/왼쪽 화살표.svg';
 import { ReactComponent as RightArrow } from '../../asset/image/오른쪽 화살표.svg';
 import { ReactComponent as StopIcon } from '../../asset/image/정지 아이콘.svg';
+import mathImage1 from "../../asset/image/수학문제거래1.png"
+import mathImage2 from "../../asset/image/수학문제거래2.png"
+import aiCharacterImage1 from "../../asset/image/AI캐릭터.png"
+import aiCharacterImage2 from "../../asset/image/AI캐릭터2.png"
+import yudleImage1 from "../../asset/image/유들게임.png"
+import yudleImage2 from "../../asset/image/유들게임2.png"
+
 
 const projects=[
     {
@@ -13,7 +20,11 @@ const projects=[
             {"item":"기술 스택","content":"React, SpringBoot, MySQL, FastAPI, OpenAI"},
             {"item":"내 역할","content":"SpringBoot를 이용하여 문제 CRUD RestAPI 기능 구현\nMySQL를 이용하여 데이터베이스 설계 및 구축\nReact 담당 동료와 RestAPI 통신 관리"},
             {"item":"기타","content":"깃허브, 관련 논문, 발표 자료"},
-    ]
+        ],
+        "imageInfo":[
+            {"backgroundImage":mathImage1,"backgroundSize":"770px 558px","backgroundPosition":"-80px -110px"},
+            {"backgroundImage":mathImage2,"backgroundSize":"641px 458px","backgroundPosition":"-10px -45px"}
+        ]
     },
     {
         "title":"게임에서 LLM과 기억 시스템을 활용한 AI 캐릭터",
@@ -23,8 +34,12 @@ const projects=[
             {"item":"프로젝트 내용","content":"1. 본 프로젝트에서는 기억 시스템 아키텍처, RAG 기술 등을 이용하여 AI 캐릭터 시스템을 구축해 사용자 몰입 저하 문제를 해결하고자 한다.\n2. RAG와 VectorDB를 활용하여 사용자와 대화한 내용을 기억하고 AI 캐릭터는 다음 대화에서 이를 기억해 답변을 한다.\n3. LLM 모델의 토큰 사용량을 줄이기 위하여 유사도, 중요도, 최신성 이라는 기준을 만들어 사용자의 기억을 가지고 온다."},
             {"item":"기술 스택","content":"Unity, FastAPI, ChromaDB, OpenAI"},
             {"item":"내 역할","content":"자연어 임베딩 모델과 ChromaDB를 이용한 기억 데이터 임베딩 및 입출력 구현\nRAG기술 중 유사성,중요성,최신성을 반영한 Retrieve 시스템 구현\nFastAPI를 이용한 Main Server와 RestAPI 통신 구현\n 개발 테스트를 위한 AWS EC2 가상머신 배포"},
-            {"item":"기타","content":"제5회 인공지능학술대회 우수 논문 장려상 수상"},
-    ]
+            {"item":"기타","content":"제5회 인공지능학술대회 우수 논문 장려상 수상"},    
+        ],
+        "imageInfo":[
+            {"backgroundImage":aiCharacterImage1,"backgroundSize":"777px 624px","backgroundPosition":"-97px -108px"},
+            {"backgroundImage":aiCharacterImage2,"backgroundSize":"725px 398px","backgroundPosition":"-53px -9px"}
+        ]
     },
     {
         "title":"Yudle 자음 모음 단어 맞추기",
@@ -35,17 +50,10 @@ const projects=[
             {"item":"기술 스택","content":"React, FastAPI, MySQL, AWS EC2"},
             {"item":"고민 사항","content":"1. 단어 체크 알고리즘을 어떻게 구현해야 할 지\n2. 자음 모음 변수는 redux로 관리할지 useState로 관리할지\n3. 반응형 웹 / 앱 으로 모바일 기기에서도 작동하도록 하기"},
             {"item":"기타","content":"깃허브, 게임 사이트"},
-        ]
-    },
-    {
-        "title":"게임에서 LLM과 기억 시스템을 활용한 AI 캐릭터",
-        "content":[
-            {"item":"프로젝트 배경","content":"시중에 거래되는 수학 문제는 최초 저자를 확인하기 어렵기 때문에 이를 악용하여 표절 문제를 거래하는 문제가 생겨 이를 해결하고자 문제에 표절도를 부여하는 거래 사이트를 구축하고자 함  "},
-            {"item":"개발 기간 및 인원","content":"개발 기간 :  2023.11 ~ 2024.02\n개발 인원 :  FE (1), BE (1), UI/UX (1)"},
-            {"item":"주요 기능","content":"1. 판매자는 문제를 업로드 할 수 있음\n2. 문제를 업로드 할 때 표절도 검사를 진행함\n3. 표절도 확인 후 문제 등록 가능\n----------------------------------\n1. 구매자는 문제를 탐색할 수 있음\n2. 문제를 구매할 때 해당 문제에 대한 표절도 확인 가능\n3. 유형별로 판매중인 문제 확인 가능"},
-            {"item":"기술 스택","content":"React, SpringBoot, MySQL, FastAPI, OpenAI"},
-            {"item":"내 역할","content":"SpringBoot를 이용하여 문제 CRUD RestAPI 기능 구현\nMySQL를 이용하여 데이터베이스 설계 및 구축\nReact 담당 동료와 RestAPI 통신 관리"},
-            {"item":"기타","content":"바꼇지롱"},
+        ],
+        "imageInfo":[
+            {"backgroundImage":yudleImage1,"backgroundSize":"258px 400px","backgroundPosition":"181px 0px"},
+            {"backgroundImage":yudleImage2,"backgroundSize":"266px 576px","backgroundPosition":"177px -10px"}
         ]
     },
 ]
@@ -58,42 +66,21 @@ function Title(props){
     )
 }
 
-// function NavigationBar(){
-//     function NaviBox(){
-//         return(
-//             <div className="navibox">
-//                 <div className="naviboxcontent">
-//                     <LeftArrow className="naviicon"></LeftArrow>
-//                     <StopIcon className="naviicon"></StopIcon>
-//                     <RightArrow className="naviicon"></RightArrow>
-//                     <h5><span style={{fontSize:"20px",fontWeight:"700",color:"black"}}>2</span> / 4</h5>
-//                 </div>
-//             </div>
-//         )
-//     }
-
-//     function NaviTitle(props){
-//         return(
-//             <div className="navititle">
-//                 <h5>{props.title}</h5>
-//             </div>
-//         )
-//     }
-
-//     return(
-//         <div className="navigationbar">
-//            <NaviBox></NaviBox>
-//            <NaviTitle title={project1.title}></NaviTitle>
-//         </div>
-//     )
-// }
-
 function ProjectImage(props){
     const id = props.id
+    const imageCount = 2
+    const projectImageInfo = projects[id].imageInfo
+    const styles = [{},{}]
+    for(let i=0;i<imageCount;i++){
+        styles[i].backgroundImage = `url(${projectImageInfo[i].backgroundImage})`
+        styles[i].backgroundPosition = projectImageInfo[i].backgroundPosition
+        styles[i].backgroundSize = projectImageInfo[i].backgroundSize
+    }
+ 
     return(
         <div className="projectimage">
-            <div className="projectimagecontent1"></div>
-            <div className="projectimagecontent2"></div>
+            <div className="projectimagecontent1" style={styles[0]}></div>
+            <div className="projectimagecontent2" style={styles[1]}></div>
         </div>
     )
 }
@@ -132,6 +119,14 @@ function ProjectContent(props){
     )
 }
 
+function HomeButton(){
+    return(
+        <div className="homebutton">
+            <h2>처음으로</h2>
+        </div>
+    )
+}
+
 function Project(props){
     const id = props.id
     if(id>=projects.length){
@@ -150,6 +145,7 @@ function Project(props){
                 <hr style={{height:"800px",border:"0px",borderRight:"0.5px solid rgba(66,66,66,0.3)",marginLeft:"80px"}}></hr>
                 <ProjectContent id={id}></ProjectContent>
             </div>
+            <HomeButton></HomeButton>
         </div>
     )
 }
