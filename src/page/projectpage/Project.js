@@ -50,7 +50,7 @@ const projects=[
             {"item":"주요 기능","content":"1. 사용자는 6개의 박스에 원하는 자모음을 넣어 조합한 단어를 제출할 수 있다.\n2. 이후 숫자 야구와 비슷한 형태로 자음 모음 위치를 정답 단어와 비교하여 색깔로 표시된다.\n3. 총 6번의 기회가 주어지고 얼마나 빨리 맞췄는지, 얼마나 적은 횟수로 맞췄는지에 따라 점수가 산출된다.\n4. 이후 닉네임을 적어 랭킹 시스템에 등록할 수 있다."},
             {"item":"기술 스택","content":"React, FastAPI, MySQL, AWS EC2"},
             {"item":"고민 사항","content":"1. 단어 체크 알고리즘을 어떻게 구현해야 할 지\n2. 자음 모음 변수는 redux로 관리할지 useState로 관리할지\n3. 반응형 웹 / 앱 으로 모바일 기기에서도 작동하도록 하기"},
-            {"item":"참고자료","content":[{"title":"게임 사이트","url":"https://yudle.store/"},{"title":"Github","url":"https://github.com/LSe-Yeong/ggodle"}]},
+            {"item":"참고자료","content":[{"title":"게임 사이트","url":"https://ggodle.vercel.app/"},{"title":"Github","url":"https://github.com/LSe-Yeong/ggodle"}]},
         ],
         "imageInfo":[
             {"backgroundImage":yudleImage1,"backgroundSize":"258px 400px","backgroundPosition":"181px 0px"},
