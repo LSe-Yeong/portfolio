@@ -14,7 +14,7 @@ function EtcContent(){
     const award = ["제5회 인공지능학술대회 우수논문 장려상","서울시립대학교 제1회 해커톤 대회 장려상 "]
     const activity = ["서울시립대학교 SE연구실 (2023.11 ~ 2025.02)","서울시립대학교 실전문제연구대회 참여(2023.11~2024.01 , 2024.09 ~ 2025.01)"]
     const career = ["없음"]
-    const contact = ["GitHub : @Lse-Yeong","Phone : 010-5029-1387","Mail : ocdee39@gmail.com"]
+    const contact = ["Phone : 010-5029-1387","Mail : ocdee39@gmail.com"]
 
     function ContentTemplate(props){
         const content = []

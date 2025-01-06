@@ -7,7 +7,6 @@ function ProjectPage(){
     
     return(
         <div className="containor">
-            <Header></Header>
             <Project id={id}></Project>
         </div>
     )

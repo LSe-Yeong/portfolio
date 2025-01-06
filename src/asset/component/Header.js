@@ -15,10 +15,10 @@ function Header(){
     function NavBar(){
         return(
             <div className="navbar">
-                <a href="#myintro"><span style={{marginLeft:"0px"}}>My Intro</span></a>
-                <a href="#project"><span>Project</span></a>
-                <a href="#techstack"><span>Tech Stack</span></a>
-                <a href="#etc"><span>Etc</span></a>
+                <a href="/#myintro"><span style={{marginLeft:"0px"}}>My Intro</span></a>
+                <a href="/#project"><span>Project</span></a>
+                <a href="/#techstack"><span>Tech Stack</span></a>
+                <a href="/#etc"><span>Etc</span></a>
             </div>
         )
     }
