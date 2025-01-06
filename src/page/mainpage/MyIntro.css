@@ -27,10 +27,10 @@
     height: 500px;
     background-color: red;
     border-radius: 20px;
-    background-image: url('../../asset/image/호랑사또.jpg');
+    background-image: url('../../asset/image/미모티콘1.jpg');
     background-repeat: no-repeat;
-    background-position: -330px -200px; /* x축: 20px, y축: 40px */
-    background-size: 1178px 872px; /* 이미지 너비 100px, 높이 100px */
+    background-position: -1px -34px; /* x축: 20px, y축: 40px */
+    background-size: 512px 585px; /* 이미지 너비 100px, 높이 100px */
 }
 
 .myintrocontent{

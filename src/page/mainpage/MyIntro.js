@@ -32,7 +32,7 @@ function MyIntroContent(){
     return(
         <div className="myintrocontent">
             <h3>안녕하세요<br></br>
-            <span style={{color:"red"}}>편리한 세상을 만들 개발자</span> 호랑사또 입니다
+            <span style={{color:"red"}}>편리한 세상을 만들 개발자</span> 이세영 입니다
             </h3>
             <h5>
             저의 개발자로서의 최종 목표는<br></br>
@@ -40,9 +40,9 @@ function MyIntroContent(){
             세상을 더 편리하게 만드는 것입니다.
             </h5>
             <div style={{marginTop:"20px"}}>
-                <ContentTemplate title="1.기초를 중요하게 생각합니다." idx={0}></ContentTemplate>
-                <ContentTemplate title="2.프로젝트에 있어 도전적인 성격입니다." idx={1}></ContentTemplate>
-                <ContentTemplate title="3.간단한 서비스를 만들어 배포한 경험이 있습니다." idx={2}></ContentTemplate>
+                <ContentTemplate title="1. 기초를 중요하게 생각합니다." idx={0}></ContentTemplate>
+                <ContentTemplate title="2. 프로젝트에 있어 도전적인 성격입니다." idx={1}></ContentTemplate>
+                <ContentTemplate title="3. 간단한 서비스를 만들어 배포한 경험이 있습니다." idx={2}></ContentTemplate>
             </div>
         </div>
     )
