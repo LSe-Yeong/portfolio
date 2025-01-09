@@ -2,6 +2,7 @@ import "./ProjectPreview.css"
 import mathProjectImage from "../../asset/image/수학문제거래1.png"
 import aiCharacterImage from "../../asset/image/AI캐릭터.png"
 import yudleImage from "../../asset/image/유들게임.png"
+import libraryImage from "../../asset/image/서울시도서관1.png"
 
 const project1 = {
     "title":"제목: 표절도 유사도 기반 수학 문제 거래 플랫폼",
@@ -25,6 +26,14 @@ const project3 = {
     "backgroundSize":"192px 300px",
     "backgroundPosition":"96px 7px",
     "content" : "프로젝트 기간 : 2024.02 ~ 2024.12\n프로젝트 인원 : 개인 프로젝트\n내 역할 : FullStack"
+}
+
+const project4 = {
+    "title":"서울시 도서관 통합 시스템",
+    "backgrondImage":libraryImage,
+    "backgroundSize":"257px 329px",
+    "backgroundPosition":"71px -8px",
+    "content" : "프로젝트 기간 : 2024.11.08 ~ 2024.11.10\n프로젝트 인원 : FE(1), BE(1), DE(1), UI/UX(2)\n내 역할 : Backend"
 }
 
 function Title(){
@@ -73,11 +82,17 @@ function ProjectPreviewContent(){
     }
 
     return(
+        <>
         <div className="projectpreviewcontent">
             <PreviewContentTemplate idx={0} content={project1}></PreviewContentTemplate>
             <PreviewContentTemplate idx={1} content={project2}></PreviewContentTemplate>
             <PreviewContentTemplate idx={2} content={project3}></PreviewContentTemplate>
         </div>
+        <div className="projectpreviewcontent">
+            <PreviewContentTemplate idx={3} content={project4}></PreviewContentTemplate>
+        </div>
+        </>
+
     )
 }
 

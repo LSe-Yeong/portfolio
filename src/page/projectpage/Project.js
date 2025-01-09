@@ -9,6 +9,8 @@ import aiCharacterImage1 from "../../asset/image/AI캐릭터.png"
 import aiCharacterImage2 from "../../asset/image/AI캐릭터2.png"
 import yudleImage1 from "../../asset/image/유들게임.png"
 import yudleImage2 from "../../asset/image/유들게임2.png"
+import libraryImage1 from "../../asset/image/서울시도서관1.png"
+import libraryImage2 from "../../asset/image/서울시도서관2.png"
 
 
 const projects=[
@@ -55,6 +57,21 @@ const projects=[
         "imageInfo":[
             {"backgroundImage":yudleImage1,"backgroundSize":"258px 400px","backgroundPosition":"181px 0px"},
             {"backgroundImage":yudleImage2,"backgroundSize":"266px 576px","backgroundPosition":"177px -10px"}
+        ]
+    },
+    {
+        "title":"서울시 도서관 통합 시스템",
+        "content":[
+            {"item":"프로젝트 배경","content":"현재 서울에는 수많은 사람들이 도서관을 이용하고 있지만, 거주지역 외 도서관 정보는 알기 어렵고 또한 책이음 서비스를 지원하는 도서관을 보기 어렵기 때문에 이를 해결하고자 만든 서비스이다."},
+            {"item":"개발 기간 및 인원","content":"개발 기간 :  2024.11.08 ~ 2024.11.10\n개발 인원 : FE(1), BE(1), DE(1), UI/UX(2) "},
+            {"item":"주요 기능","content":"1.사용자는 내 주변 도서관을 찾을 수 있다.\n2.사용자는 책이음 서비스를 지원하는 도서관을 조회할 수 있다.\n3.사용자는 서울시 도서관 프로그램 조회를 할 수 있다."},
+            {"item":"기술 스택","content":"Next.js, SpringBoot, MySQL, Airflow"},
+            {"item":"내 역할","content":"1.도서관, 프로그램에 대한 데이터베이스 설계\n2.SpringBoot를 이용하여 도서관과 프로그램에 대한 CRUD와 RestAPI 통신을 하는 메인서버 구축"},
+            {"item":"참고자료","content":[{"title":"서울도서이음 사이트","url":"https://uos-hackathon-static.vercel.app/"},{"title":"Github","url":"https://github.com/orgs/UOSHackathon2024/repositories"},{"title":"수상","url":"/files/해커톤장려상.jpg"}]},
+        ],
+        "imageInfo":[
+            {"backgroundImage":libraryImage1,"backgroundSize":"413px 531px","backgroundPosition":"104px 0px"},
+            {"backgroundImage":libraryImage2,"backgroundSize":"454px 421px","backgroundPosition":"83px 0px"}
         ]
     },
 ]
