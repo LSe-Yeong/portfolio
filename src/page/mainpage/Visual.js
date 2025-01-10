@@ -12,7 +12,6 @@ function MainContent(){
                 <span style={{fontSize:"64px",fontWeight:"700"}}>Portfolio</span>
             </div>
             <div className="profileimgbox">
-
             </div>
         </div>
     )
