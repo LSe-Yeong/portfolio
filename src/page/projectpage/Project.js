@@ -37,7 +37,7 @@ const projects=[
             {"item":"프로젝트 내용","content":"1. 본 프로젝트에서는 기억 시스템 아키텍처, RAG 기술 등을 이용하여 AI 캐릭터 시스템을 구축해 사용자 몰입 저하 문제를 해결하고자 한다.\n2. RAG와 VectorDB를 활용하여 사용자와 대화한 내용을 기억하고 AI 캐릭터는 다음 대화에서 이를 기억해 답변을 한다.\n3. LLM 모델의 토큰 사용량을 줄이기 위하여 유사도, 중요도, 최신성 이라는 기준을 만들어 사용자의 기억을 가지고 온다."},
             {"item":"기술 스택","content":"Unity, FastAPI, ChromaDB, OpenAI"},
             {"item":"내 역할","content":"자연어 임베딩 모델과 ChromaDB를 이용한 기억 데이터 임베딩 및 입출력 구현\nRAG기술 중 유사성,중요성,최신성을 반영한 Retrieve 시스템 구현\nFastAPI를 이용한 Main Server와 RestAPI 통신 구현\n 개발 테스트를 위한 AWS EC2 가상머신 배포"},
-            {"item":"참고자료","content":[{"title":"관련 논문","url":"/files/AI캐릭터논문.pdf"},{"title":"Github","url":"https://github.com/MustRelease/RAGServer"},{"title":"논문 대회 수상","url":"/files/논문대회수상.jpg"}]},    
+            {"item":"참고자료","content":[{"title":"관련 논문","url":"/files/AI캐릭터논문.pdf"},{"title":"관련 논문2","url":"/files/AI캐릭터논문2.pdf"},{"title":"Github","url":"https://github.com/MustRelease/RAGServer"},{"title":"논문 대회 수상","url":"/files/논문대회수상.jpg"},{"title":"교내 실전문제연구대회 수상","url":"/files/실전문제수상.jpg"}]},    
         ],
         "imageInfo":[
             {"backgroundImage":aiCharacterImage1,"backgroundSize":"777px 624px","backgroundPosition":"-97px -108px"},
