@@ -2,6 +2,7 @@ import "./Visual.css"
 import { ReactComponent as GitHub } from '../../asset/image/깃허브.svg';
 import { ReactComponent as Mail } from '../../asset/image/메일 아이콘.svg';
 import { ReactComponent as Insta } from '../../asset/image/인스타 아이콘.svg';
+import { ReactComponent as Velog } from '../../asset/image/edit.svg';
 
 function MainContent(){
     return(
@@ -30,8 +31,8 @@ function Contact(){
             content.push(<span>ocdee39@gmail.com</span>)
         }
         else if(type=="insta"){
-            content.push(<Insta className="icon"></Insta>)
-            content.push(<a href="https://www.instagram.com/sezero_lee/"><span>sezero_lee</span></a>)
+            content.push(<Velog className="icon"></Velog>)
+            content.push(<a href="https://velog.io/@lyy1379/posts"><span>Velog</span></a>)
         }
         else{
             content.push(<h2>Error</h2>)
